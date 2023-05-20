@@ -1,0 +1,82 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [ "Hi", "How are you", "Is anyone there?", "Hello", "Good day" ,"how can i help you?","nice to meet you","Thank you","okay"],
+      "responses": [ "Hi {client_name}, \n Thanks for the response. I see that <your_company> is into <industry and usecase - one\n liner, minimal words>.\n Our company caters to Web/App development and Marketing to <industry>. Two minds are \n better than one. We would love to discuss opportunities for your serious business growth.\n Can I schedule a call to discuss possibilities with our business analyst, or you may schedule \n it here : https://rebrand.ly/yaqvht1 \n Thanks\n"]
+    },
+    
+    {
+      "tag": "job",
+      "patterns": [ "I am Looking for job", "opentowork", "freelancers" ],
+      "responses": [ "You may please send your resume to apply@banao.tech if you are interested to working at Banao Technologies." ]
+    },
+    {
+      "tag": "rate card",
+      "patterns": [ "What is Salary ?", "What is your rate card?", "how much will you pay ?" ],
+      "responses": [ "INR 600 - 1200 / hour (depending upon experience of the designer / developer) and USD 10-15 / hour" ]
+    },
+    {
+      "tag": "business",
+      "patterns": [ "How can you help our business ?", "what is your role in our business?" ],
+      "responses": [ "Hi, \n We have helped multiple businesses across various industries increase their business. Kindly share your company and contact details so that our business analyst team can do the needful and can reach out to you with solutions tailor-made for your business. \n Thanks \n" ]
+
+    },
+    {
+      "tag": "technology",
+      "patterns": [ "What technologies do you work with ?", "which technology you are working?" ],
+      "responses": [ "Hi, \n We have a broad range of experience with the following technologies:\n - Full Stack Web Development \n - App Development (Android + IOS)" ]
+
+    },
+    {
+      "tag": "cost of service",
+      "patterns": [ "can you share cost of service ?", "i would like to know the cost of service for my business ?" ],
+      "responses": [ "Hi, \n We can definitely help you out with all your requirements but we need to understand \n the product better before sharing the cost. Kindly share your contact details so that I \n can put our Business Analyst in touch with you, or you may schedule it here: \n https://rebrand.ly/yaqvht1. \n Thanks \n" ]
+
+    },
+    {
+      "tag": "client sends a mail",
+      "patterns": [ "share stack on", "let's connect via" ],
+      "responses": [ "Sure, \n Thank you for sharing the details. Can we connect on a call tomorrow between 12pm - 4pm \n at your convenience? Should I send an invite for the same?\n Regards,\n Thanks \n" ]
+
+    },
+    
+    {
+      "tag": "connect",
+      "patterns": [ "Will get back to you","Let's connect after a month","Let's connect after a week","Let's connect after a day"],
+      "responses": [ "Sure, \n Awaiting your revert. You may schedule a call anytime : https://rebrand.ly/yaqvht1 \n Thanks. \n"] 
+
+    },
+    {
+      "tag": "occupied",
+      "patterns": [ "We’re good for now", "not interested","we’re handling it internally","we’re fully occupied at this time","maybe later" ],
+      "responses": [ "Noted. We would have loved “two minds instead of one” for your business growth <and we \n have business analysts who specifically cater to industry>. However, if you are sure, you \n may save these details for future reference: \n Banao Technologies (www.banao.tech), +91-9900036467.\n Development Portfolio : shorturl.at/fjGOX \n Marketing Portfolio : shorturl.at/izDK6 \n"]
+
+    },
+    {
+      "tag": "regarding",
+      "patterns": [ "how can i help you ?", "what is this regarding ?","what kind of services ?" ],
+      "responses": [ "Hi, \n Banao Tech (www.banao.tech) offers Web/App Development and Marketing services. (If \n portfolio is not sent) You can have a look at our development and marketing portfolios.\n Development Portfolio : shorturl.at/fjGOX \n Marketing Portfolio : shorturl.at/izDK6 \n Can I schedule a call to discuss any open requirements at your end with our business \n analyst <who caters to industry>, or you may schedule it here : https://rebrand.ly/yaqvht1 \n Thanks \n" ]
+
+    },
+    {
+      "tag": "portfolio",
+      "patterns": [ "please share your portfolio"],
+      "responses": [ "We have broad experience in various industries: \n Development Portfolio : shorturl.at/fjGOX\n Marketing Portfolio : shorturl.at/izDK6\n We have great expertise in <client’s industry>, <client’s related industry> and e-commerce.\n Can I schedule a call to discuss possibilities with our business analyst, or you may schedule \n it here : https://rebrand.ly/yaqvht1\n"]
+
+    },
+      {
+      "tag": "contact",
+      "patterns": [ "please share your contact number"],
+      "responses": [ "Hi, \n You may reach us at <+91-XXXXXXXX> or better, please schedule a calendar meeting here: \n https://rebrand.ly/yaqvht1 \n Thanks \n"]
+
+    },
+      {
+      "tag": "target",
+      "patterns": [ "What marketplaces do you target as part of your business development strategy?"],
+      "responses": [ "Hello, \n We use SEO, Linkedin and email marketing for B2B Business Development strategies\n Hope this answers your question? \n Thanks \n"]
+
+    }
+
+  ]
+}
